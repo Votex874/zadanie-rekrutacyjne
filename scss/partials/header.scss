@@ -1,0 +1,174 @@
+.header {
+  .userOption {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    .favourite {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 26px;
+      margin: 10px 5px;
+      background-color: royalblue;
+      border-radius: 15px;
+      color: #fff;
+      letter-spacing: 1px;
+      font-size: 60%;
+      .far {
+        margin-right: 3px;
+      }
+    }
+    .register {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 24px;
+      margin: 10px 5px;
+      border: 1px solid grey;
+      text-align: center;
+      letter-spacing: 1px;
+      font-size: 60%;
+    }
+    .log {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      margin: 10px 5px;
+      padding-left: 5px;
+      width: 100px;
+      height: 26px;
+      background-color: black;
+      color: #fff;
+      .logText {
+        display: block;
+        width: 70%;
+        font-size: 54%;
+        padding-left: 6px;
+      }
+      .logIcon {
+        width: 30%;
+        height: 100%;
+        background-color: #325286;
+        .fa {
+          margin: 4px 0 0 7px;
+        }
+      }
+    }
+  }
+  .logo {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    .holdMainLogoStructure {
+      width: 1024px;
+      margin: 30px auto;
+      display: flex;
+      justify-content: space-between;
+      .mainLogo {
+        width: 30%;
+        margin-left: 100px;
+        font-size: 200%;
+        font-weight: lighter;
+      }
+      .search{
+        margin-right: 120px;
+        display: flex;
+        flex-direction: row;
+        .searchBar{
+          display: flex;
+          flex-direction: row;
+          border: 1px solid #ddd;
+          input{
+            width: 80%;
+            padding: 7px 7px 7px 10px;
+            border: none;
+            &::placeholder{
+              color: #cccccc;
+              font-style: italic;
+            }
+          }
+          .searchIcon{
+            width: 20%;
+            color: #0086B3;
+            .fas{
+              margin: 8px 0 0 10px;
+            }
+          }
+        }
+        .iconShop{
+          width: 30px;
+          height: 100%;
+          font-size: 150%;
+          margin: 0 4px 0 16px;
+          .fas{
+            margin: 10px 0 0 0;
+          }
+        }
+        .iconSettings{
+          width: 30px;
+          height: 100%;
+          font-size: 140%;
+          margin: 0 6px;
+          position: relative;
+          .count{
+            position: absolute;
+            font-size: 55%;
+            display: block;
+            background-color: #325286;
+            color: #fff;
+            width: 20px;
+            height: 15px;
+            text-align: center;
+            border-radius: 50%;
+            padding-top: 5px;
+            left: -26px;
+          }
+          .fas{
+            margin: 12px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+  .navigation{
+    width: 1024px;
+    margin: 0 auto;
+    .navigationList{
+      width: 75%;
+      margin: 20px auto;
+      display: flex;
+      justify-content: space-between;
+      font-size: 80%;    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
